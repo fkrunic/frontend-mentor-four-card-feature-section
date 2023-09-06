@@ -22,7 +22,9 @@ const getIconURL = (tag: string) => {
     rounded-lg 
     
     border-solid
-    border-t-2
+    border-t-4
+
+    desktop:p-8
     " :class="card.borderClass">
     <p class="font-bold text-lg text-very-dark-blue">{{ card.title }}</p>
     <p class="text-xs text-grayish-blue leading-5">{{ card.content }}</p>
