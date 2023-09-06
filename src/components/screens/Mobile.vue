@@ -16,7 +16,7 @@ import Banner from '../Banner.vue'
     
     m-8
     ">
-    <Banner></Banner>
+    <Banner class="pb-10"></Banner>
     <Card class="w-full" v-for="card of cards" :card="card"></Card>
   </div>  
 </template>
