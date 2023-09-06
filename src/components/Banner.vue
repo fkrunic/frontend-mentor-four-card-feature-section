@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col text-center">
     <p>Reliable, efficient delivery</p>
     <p class="font-bold">Powered by Technology</p>
     <p>
