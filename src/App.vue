@@ -4,7 +4,7 @@ import Mobile from './components/screens/Mobile.vue'
 import Desktop from './components/screens/Desktop.vue'
 
 onMounted(() => {
-  document.body.className = 'font-poppins'
+  document.body.className = 'font-poppins bg-very-light-gray'
 })
 </script>
 

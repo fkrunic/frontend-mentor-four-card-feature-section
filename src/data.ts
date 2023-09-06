@@ -5,10 +5,6 @@ export interface CardDetails {
   borderClass: string  
 }
 
-const getURL = (url: string) => {
-  return new URL(url, import.meta.url).href
-}
-
 export const cards: Array<CardDetails> = [
   {
     title: 'Supervisor',
