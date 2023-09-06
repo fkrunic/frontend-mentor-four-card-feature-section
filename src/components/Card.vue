@@ -12,18 +12,22 @@ const getIconURL = (tag: string) => {
   <div class="
     flex 
     flex-col 
-    items-start 
+    items-start
+    gap-1
+
+    p-6
     
     shadow-lg 
-    rounded-xl 
+    shadow-very-dark-blue/20
+    rounded-lg 
     
     border-solid
     border-t-2
     " :class="card.borderClass">
-    <p>{{ card.title }}</p>
-    <p>{{ card.content }}</p>
-    <div class="flex flex-row justify-end items-center w-full">
-      <img :src="getIconURL(card.tag)">
+    <p class="font-bold text-lg text-very-dark-blue">{{ card.title }}</p>
+    <p class="text-xs text-grayish-blue leading-5">{{ card.content }}</p>
+    <div class="flex flex-row justify-end items-center w-full pt-8">
+      <img class="w-14 h-14" :src="getIconURL(card.tag)">
     </div>
   </div>
 </template>
